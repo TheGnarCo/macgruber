@@ -1,6 +1,6 @@
-# Gnareact
+# MacGruber
 
-The Gnar's React/Redux app starter
+A sample app that leverages the React context API
 
 ## Setup
 
@@ -10,20 +10,13 @@ Initial setup was completed with slight modifications following Andrew Farmer's
 1) Install dependencies
 
 ```
-yarn
+npm ci
 ```
 
-2) Build the app
-
-
-```
-npm run build
-```
-
-3) Run the app
+2) Run the app
 
 ```
 npm start
 ```
 
-4) Visit `localhost:8080` in your browser
+3) Visit `localhost:8080` in your browser
