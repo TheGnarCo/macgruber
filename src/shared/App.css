@@ -1,0 +1,20 @@
+.timeline__progress-bar-wrapper {
+  background-color: grey;
+  height: 20px;
+  overflow: hidden;
+}
+
+.timeline__progress-bar-meter {
+  background-color: red;
+  height: 100%;
+  overflow: hidden;
+  transition: width 300ms ease-in;
+}
+
+.video__wrapper {
+  width: 200px;
+}
+
+.video__wrapper--large {
+  width: 100%;
+}
