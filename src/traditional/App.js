@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import '../shared/App.css'
 import { Timeline } from './Timeline'
-import { Video } from '../shared/Video'
+import { Video } from './Video'
 import { VideoPlayer } from './VideoPlayer'
 
 const baseClass = 'app'

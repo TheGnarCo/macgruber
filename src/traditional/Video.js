@@ -1,6 +1,7 @@
 import * as React from 'react'
 
-import { VideoContext } from './VideoContext'
+import { VideoContext } from '../shared/VideoContext'
+import MacgruberTrailer from '../shared/MacgruberTrailer.mp4'
 
 const baseClass = 'video'
 
@@ -17,7 +18,7 @@ export const Video = props => {
           className={videoClass}
           onClick={togglePlaying}
           ref={setVideoRef}
-          src={require('../shared/MacgruberTrailer.mp4')}
+          src={MacgruberTrailer}
         >
           <track />
         </video>
