@@ -1,57 +1,31 @@
 {
-  "name": "gnareact",
-  "version": "0.0.1",
-  "description": "The Gnar's React app starter kit",
-  "main": "dist/bundle.js",
-  "repository": "https://github.com/TheGnarCo/gnarlist.git",
-  "author": "Mike Stone <mike@gnar.dog>",
-  "license": "MIT",
-  "scripts": {
-    "build": "webpack",
-    "lint": "eslint src",
-    "mocha": "mocha --compilers babel-core/register --require src/test/.setup.js --recursive src/**/*.tests.js*",
-    "start": "npm run build && node server.js",
-    "test": "npm run lint && npm run mocha"
-  },
+  "name": "macgruber",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "css-loader": "^0.28.0",
-    "express": "^4.15.2",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "file-loader": "^0.11.2",
-    "html-loader": "^0.4.5",
-    "import-glob-loader": "^1.1.0",
-    "node-sass": "^4.5.2",
-    "postcss-loader": "^1.3.3",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-entity-getter": "^0.0.6",
-    "react-redux": "^5.0.4",
-    "redux": "^3.6.0",
-    "redux-entity-config": "^1.0.0",
-    "redux-thunk": "^2.2.0",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1",
-    "url-loader": "^0.5.9",
-    "webpack": "^2.4.1",
-    "webpack-dev-middleware": "^1.10.1"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "enzyme": "^2.8.2",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1",
-    "expect": "^1.20.2",
-    "jsdom": "^10.1.0",
-    "mocha": "^3.3.0",
-    "react-test-renderer": "^15.5.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
